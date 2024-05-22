@@ -48,5 +48,4 @@ EMAIL_USER= username@gmail.com // email id with less secure app access\
 EMAIL_PASS=password\
 
 
-
-![image](https://github.com/AbhishekSingaravel/Nodejs-GoZen-Tasks/assets/141740668/7377eb52-6fbe-4423-802c-3160e21abd63)
+Used Postman to do CRUD Methods\
