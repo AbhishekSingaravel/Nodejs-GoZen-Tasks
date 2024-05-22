@@ -7,7 +7,7 @@ cron.schedule('* * * * *', async () => {
   console.log('Running a task every minute');
 
   try {
-    await sendEmail('abhisheksingaravel.1010@gmail.com', 'Hello!', 'This is a scheduled email!');
+    await sendEmail('recievermailid@gmail.com', 'Hello!', 'This is a scheduled email!');
     console.log('Email sent successfully');
   } catch (error) {
     console.error('Error sending email:', error);
