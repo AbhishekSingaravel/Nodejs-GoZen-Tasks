@@ -39,3 +39,10 @@ Requirements: Use the node-cron library to define cron jobs and execute tasks at
 Task: Create middleware to validate request payloads (e.g., JSON bodies) in an Express.js application.
 Requirements: Implement middleware to validate incoming request payloads against a defined schema or set of rules. Use libraries like joi, express-validator, etc to define validation schemas and handle validation errors.
 
+
+Modify .env file
+PORT=3001 //Port users standard
+MONGODB_URI=mongodb+srv://<username>:<password>@<mongodbname>.dufqyey.mongodb.net/
+ACCESS_TOKEN_SECRET=4jbhb42jsl2njndhjksdk  // get jwt secret access token
+EMAIL_USER= username@gmail.com // email id with less secure app access
+EMAIL_PASS=password
