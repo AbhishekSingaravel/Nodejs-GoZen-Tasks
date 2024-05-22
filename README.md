@@ -46,3 +46,7 @@ MONGODB_URI=mongodb+srv://<username>:<password>@<mongodbname>.dufqyey.mongodb.ne
 ACCESS_TOKEN_SECRET=4jbhb42jsl2njndhjksdk  // get jwt secret access token\
 EMAIL_USER= username@gmail.com // email id with less secure app access\
 EMAIL_PASS=password\
+
+
+
+![image](https://github.com/AbhishekSingaravel/Nodejs-GoZen-Tasks/assets/141740668/7377eb52-6fbe-4423-802c-3160e21abd63)
