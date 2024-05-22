@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Express App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            margin-top: 20px;
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Express App!</h1>
+    <h2>Users</h2>
+    <ul id="user-list"></ul>
+    <h2>Products</h2>
+    <ul id="product-list"></ul>
+    
+    <h2>Add a New Product</h2>
+    <form id="product-form">
+        <input type="text" id="product-name" placeholder="Product Name" required>
+        <input type="number" id="product-price" placeholder="Product Price" required>
+        <button type="submit">Add Product</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
